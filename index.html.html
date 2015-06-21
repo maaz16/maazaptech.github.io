@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>Responsive Dog Website</title>
+
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+<style>
+	
+*{
+	margin: auto;
+}
+
+body{
+}
+
+#container {
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+
+#headpack {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+#header {
+	background-color: white;
+	width: 1200px;
+	height: 80px;
+}
+
+
+#Logo {
+	float: left;
+	margin-top:10px; 
+	opacity: 1;
+   transition: opacity .45s ease-in-out;
+   -moz-transition: opacity .45s ease-in-out;
+   -webkit-transition: opacity .45s ease-in-out;
+
+}
+
+
+#Logo:hover {
+	float: left;
+	margin-top:10px;
+	opacity: 0.4; 
+
+}
+
+
+#navi {
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	height: 80px;
+}
+
+ul{
+list-style: none;
+text-decoration: none;
+}
+
+
+li {
+	text-decoration: none;
+	float: left;
+	padding-left:30px;
+	padding-top: 30px; 
+}
+
+#navi a {
+	text-decoration: none;
+	color: black;
+
+
+}
+
+#navi a:hover {
+	border-top:15px solid #f39200;
+	padding-top:26px;
+
+
+}
+
+#bannerpack {
+	width: 100%;
+	height: 500px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+
+
+
+}
+
+#banner {
+	width: 1200px;
+	height: 500px;
+}
+#bannertext {
+	float: left;
+	padding-top: 50px;
+
+}
+
+
+#bannerimg{
+	width: auto;
+	height: 200px;
+	padding-top: 80px;
+	float: right;
+}
+
+#bannertextpack {
+	padding-top: 50px;
+	width: 600px;
+	float: left;
+
+}
+
+#section {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  width: 1300px;
+  height: 300px;
+  	font-family: "Museo Sans Rounded", sans-serif;
+
+
+}
+
+
+
+
+
+#calltoaction {
+	background-image: url(pattern-04.jpg);
+	width: 100%;
+	height: 20px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+
+
+
+
+}
+
+#containercalltoaction {
+	margin: auto;
+	width: 100%;
+	height: 20px;
+	float: left;
+
+}
+#box4 {
+background-image: url(pattern-04.jpg);
+	margin: auto;
+  width: 100%;
+	height: 20px;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+
+}
+
+
+
+
+#sectionboxes {
+	width:1300px;
+	height: 200px;
+	
+}
+
+#box1 {
+	width : 300px;
+	height: 200px;
+	float: left;
+	margin: 60px;
+	border-top:2px solid #e1e1e1;
+}
+
+#box2 {
+	width : 300px;
+	height: 200px;
+	float: left;
+	margin: 60px;
+	border-top:2px solid #e1e1e1;
+
+}
+
+#box3 {
+	width : 300px;
+	height: 200px;
+	float: left;
+	margin: 60px;
+	border-top:2px solid #e1e1e1;
+}
+
+
+
+#strip1 {
+	background-color: #F7F7F7;
+	width: 100%;
+	height: 750px;
+	border-bottom: 1px solid #EFEFEF;
+	border-top: 1px solid #EFEFEF;
+	font-family: "Open Sans", sans-serif;
+
+	
+	
+} 
+
+
+#stripbox1 {
+	width:1300px;
+	height: 500px;
+	font-family: "Open Sans", sans-serif;
+
+	
+}
+
+
+#stripbox1 img{
+	border:1px solid #E4E4E4;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+
+#strip2 {
+	background-color:#3899EC;
+	width: 100%;
+	height: 350px;
+}
+
+
+#stripbox2 {
+	width:1300px;
+	height: 350px;
+	font-family: "Open Sans", sans-serif;
+	color : white;
+
+	
+}
+
+#stripbox2 h1{
+	padding-top: 80px;
+	
+}
+
+
+#button2 {
+	background : #3899EC;
+	width:200px;
+	height: 35px;
+	border: 2px solid white; 
+	text-align: center;
+	border-radius: 5px;
+	padding-top:10px;
+	margin-top:20px;
+	color : white;
+}
+
+#button2:hover{
+	color: #3899EC;
+	background : white;
+	width:200px;
+	height: 35px;
+	border: 2px solid white; 
+	text-align: center;
+	border-radius: 5px;
+	padding-top:10px;
+	margin-top:20px;
+}
+
+#button2 a{
+	color:white;
+	text-decoration:none;
+	list-style:none;
+}
+
+#button2 a:hover{
+	color:#3899EC;
+	text-decoration:none;
+	list-style:none;
+}
+
+#strip3 {
+	wwidth: 100%;
+	height:800px;
+	text-align: center;}
+	
+	
+#stripbox3 {
+	width: 1300px;
+	height: 600px;
+	font-family: "Open Sans", sans-serif;
+	color : #262626;
+}
+
+#stripbox3 h1{
+	padding-top: 80px;
+	
+}
+
+
+#stripbox3 img{
+	padding-bottom:150px;}
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<div id="container">
+
+<div id="headpack">
+<div id="header">
+	<div id="Logo"><img src="logo.png"></div>
+	<div id="navi">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Categories</a></li>
+			<li><a href="#">Breeds</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+</div>	
+
+
+<div id="bannerpack">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><a href="google.com" target="_blank"><img src="data1/images/dogwallpaper12_1.jpg" alt="They Are the Mostt Amaing Animals on Our Planet Earth." title="They Are the Mostt Amaing Animals on Our Planet Earth." id="wows1_0"/></a>Dog are the most amazing animals lcing on this planet eath.They have always proved to be the best and honets friend of Men and they always help us.</li>
+		<li><a href="There's a tremendous difference between alone and lonely. You could be lonely in a group of people. I like being alone. I like eating by myself. I go home at night and just watch a movie or hang out with my dog. I have to exert myself and really say, oh God, I've got to see my friends 'cause I'm too content being by myself."><img src="data1/images/puppydogs3548559719201200.jpg" alt="A dog is the only thing on earth that loves you more than you love yourself." title="A dog is the only thing on earth that loves you more than you love yourself." id="wows1_1"/></a>There's a tremendous difference between alone and lonely. You could be lonely in a group of people. I like being alone. I like eating by myself. I go home at night and just watch a movie or hang out with my dog. I have to exert myself and really say, oh God, I've got to see my friends 'cause I'm too content being by myself.</li>
+		<li><a href="Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. What's one thing that we have in our lives that we can depend on? A dog or a cat loving us unconditionally, every day, very faithfully"><img src="data1/images/winterdogsnowflakeshdwallpaperdogwallpaperhdfreewallpapersbackgroundsimagesfhd4kdownload201420152016.jpg" alt="Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. " title="Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. " id="wows1_2"/></a>Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. What's one thing that we have in our lives that we can depend on? A dog or a cat loving us unconditionally, every day, very faithfully</li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="They Are the Mostt Amaing Animals on Our Planet Earth."><span><img src="data1/tooltips/dogwallpaper12_1.jpg" alt="They Are the Mostt Amaing Animals on Our Planet Earth."/>1</span></a>
+		<a href="#" title="A dog is the only thing on earth that loves you more than you love yourself."><span><img src="data1/tooltips/puppydogs3548559719201200.jpg" alt="A dog is the only thing on earth that loves you more than you love yourself."/>2</span></a>
+		<a href="#" title="Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. "><span><img src="data1/tooltips/winterdogsnowflakeshdwallpaperdogwallpaperhdfreewallpapersbackgroundsimagesfhd4kdownload201420152016.jpg" alt="Animals have come to mean so much in our lives. We live in a fragmented and disconnected culture. Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. "/>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider html5</a> by WOWSlider.com v8.2</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+</div>
+
+
+</div>
+
+<!-- section -->
+<div id="section">
+
+
+<!-- sectionbox -->
+<div id="sectionboxes">
+
+
+<!-- BOX1 -->
+<div id="box1">
+
+<h2><br>Save Time Billing</h2>
+
+<p><br><br>FreshBooks customers spend less time on paperwork, freeing up 2 days per month to focus on the work they love. What would you do with that extra time?
+
+ </p>
+
+</div>
+<!-- BOX1 -->
+
+
+
+<!-- BOX2 -->
+<div id="box2">
+
+
+<h2><br>Get Paid Faster</h2>
+
+<p><br><br>With FreshBooks, you can easily invoice clients from your desk or on the go. In fact, FreshBooks customers are paid an average of 5 days faster.
+
+ </p>
+
+</div>
+<!-- BOX2 -->
+
+
+<!-- BOX3 -->
+<div id="box3">
+
+
+<h2><br>Grow Your Business</h2>
+
+<p><br><br>FreshBooks is built to support the needs of growing businesses. On average, FreshBooks customers double their revenue in the first 24 months. Woot!
+
+ </p>
+
+</div>
+<!-- BOX3 -->
+
+
+</div>
+<!-- sectionbox -->
+
+
+</div>
+<!-- section -->
+
+
+
+
+
+
+<!-- strip1 -->
+
+<div id="strip1">
+
+<!-- stripbox1 -->
+<div id="stripbox1">
+
+<center><h2> Over 45,000 new dogs join us every day <br> </h2>
+<p><br> We gives you everything about your dog you need to live a stunning life with your dog, right at your fingertips.<br>
+We make it fun to search about your dog. - its hassle-free, and you dont need go anywhere else. </p></center>
+
+<img src="images/features/3.jpg" />
+
+<img src="images/features/4.jpg" />
+<img src="images/features/5.jpg" />
+
+<img src="images/features/6.jpg" />
+
+<img src="images/features/7.jpg" />
+<img src="images/features/8.jpg" />
+
+</div>
+<!-- stripbox1 -->
+
+
+
+</div>
+<!-- strip1 -->
+
+
+
+
+
+
+
+
+
+<!-- strip2 -->
+
+<div id="strip2">  
+
+
+<div id="stripbox2">  
+
+
+<center><h1> There's no catch. It's free. <br> </h1>
+<p><br> We gives you everything about your dog you need to live a stunning life with your dog, right at your fingertips.<br>
+We make it fun to search about your dog. - its hassle-free, and you dont need go anywhere else. </p></center>
+
+<div id="button2"><a href="#">Check out our quick tour</a></div>
+
+</div>
+
+
+</div>
+<!-- strip2 -->
+
+
+
+
+
+<!-- strip3 -->
+
+
+<div id="strip3">
+
+<div id="stripbox3">
+
+
+
+<center><h1> Dog of The Day. <br> </h1>
+<p><br> We gives you everything about your dog you need to live a stunning life with your dog, right at your fingertips.<br>
+We make it fun to search about your dog. - its hassle-free, and you dont need go anywhere else. </p><img src="images/GoldenRetriever_cutout.png" />
+<p><b> Golden Retriever - United Kingdom</b></p>
+</center>
+
+
+
+
+</div>
+
+</div>
+
+
+<!-- strip3 -->
+
+
+
+
+
+<!--call to action-->
+<div id="calltoaction">
+	
+
+
+
+
+<div id="containercalltoaction">
+	
+<div id="box4">
+
+<p> © Copyright PATRONA Puppy. Project of Aptech. All rights resereved.</p>
+</div>
+
+</div>
+</div>
+<!--call to action-->
+</body>
+</html>
